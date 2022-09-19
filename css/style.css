@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border box;
+}
+header nav div div .logo{
+    width: 3rem;
+    border-radius: 50%;
+}
+h2{
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+main .intro_container{
+    display: flex;
+    position: relative;
+    background-image: url(../assets/fondo_index_section1.jpg);
+    width: 95%;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1.5rem;
+    text-align: center;
+}
+main .intro__div{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 1rem
+}
+main .intro__p{
+    line-height: 1.5;
+}
+main .ppalesTrat{
+    display: flex;
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(105, 105, 105, 0.685);
+}
+main section .ppalesTrat__img{
+    width: 400px;
+}
+main .reflexion{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    background-color:rgb(255, 255, 255, 0.651);
+}
+main section .reflexion__h2{
+    padding-top: 2rem;
+}
+/*Estilo de pagina FQS*/
+main .container__p__fqs{
+    line-height: 1.5;
+    margin: 2rem;
+}
+footer{
+    background-color: #67af45;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem;
+}
+footer #top{/*Estoy haciendo algo mal, funciona pero no me toma el estilo*/
+    text-decoration: none;
+}

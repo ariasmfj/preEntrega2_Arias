@@ -7,7 +7,7 @@
     <link rel="icon" href="./assets/favicon-32x32.png">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/estilo.css">
     <title>Naturalmedtch - Home</title>
 </head>
 <body>
@@ -26,13 +26,13 @@
                     <a class="nav-link" aria-current="page" href="./views/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios</a>
+                    <a class="nav-link" href="./views/servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./views/fqs.html">FQs</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="./views/contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -46,30 +46,118 @@
                     <p class="intro__p lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugiat modi quae dolore nesciunt quia illo molestias eum rem, cum sequi et dolorem optio non iure minima natus, ipsam delectus nulla? Vel labore totam quia minus repellendus aut aperiam nisi illo nihil explicabo. Magni exercitationem blanditiis tempora similique minima, molestias libero nam culpa labore iusto voluptate quis necessitatibus! Iusto, facilis?</p>
                 </div>
             </div>
-            <h2>Principales Tratamientos</h2>
-            <section class="ppalesTrat">                
-                <div class="ppalesTrat__div">
-                    <img class="ppalesTrat__img" src="./assets/acupuntura.jpg" alt="acupuntura">
-                    <h3>Acupuntura</h3>
-                </div>
-                <div class="ppalesTrat__div">
-                    <img class="ppalesTrat__img" src="./assets/drenaje_linfatico.jpg" alt="drenaje_linfatico">
-                    <h3>Drenaje Linfatico</h3>
-                </div>
-                <div class="ppalesTrat__div">
-                    <img class="ppalesTrat__img" src="./assets/pediluvio.jpg" alt="pediluvio">
-                    <h3>Pediluvio</h3>
-                </div>
+            <section class="sectionText">
+              <h2 class="sectionText__titulo">Principales Tratamientos</h2>
             </section>
+            <!--inicio carrusel-->
+            <div id="carouselExampleCaptions" class="carousel slide w-50 mx-auto" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/acupuntura_hd_resized.jpg" class="d-block w-100" alt="acupuntura">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Acupuntura</h5>
+                    <p>Para dolencias cronicas de todo tipo.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/pediluvio_hd_resized.jpg" class="d-block w-100" alt="pediluvio">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Pediluvio</h5>
+                    <p>Elimina toxinas mediante un proceso de desintoxicacion ionica.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/drenaje_linfatico_hd_resized.jpg" class="d-block w-100" alt="drenaje_linfatico">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Drenaje linfatico</h5>
+                    <p>Desprende el tejido adiposo para su posterior eliminacion.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--fin carrusel-->
             <section class="reflexion">
-                <h2 class="reflexion__h2">¿Por que obtar por la medicina natural?</h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odio, cum nisi repellat nemo beatae neque voluptatibus sunt deleniti iure nobis quo doloremque ea nostrum, incidunt quos rerum voluptatem suscipit libero architecto laudantium delectus hic perferendis? Ipsa aliquid quidem quis voluptatum rem dolorum accusamus animi facere reiciendis praesentium perferendis asperiores consequuntur tenetur totam, sequi iste eligendi, quod aliquam eum dolor nihil officia quam illo? Non quaerat excepturi repudiandae cumque modi, ipsam facere laboriosam exercitationem autem incidunt aperiam cupiditate! Molestias quos repellendus enim autem sed quibusdam in assumenda, vero adipisci praesentium suscipit similique repudiandae libero at modi et quidem excepturi quis voluptatem eligendi est obcaecati culpa. Neque accusantium numquam nostrum impedit mollitia laboriosam fuga aspernatur accusamus quo nesciunt natus ullam, doloribus dicta tempora vitae et optio perspiciatis odio reprehenderit minima nobis est omnis atque in! Similique ipsa delectus sunt atque beatae id, debitis, deserunt minus repellendus aliquam dicta natus quibusdam illo.</p>
+                <h2 class="reflexion__titulo">¿Por que obtar por la medicina natural?</h2>
+                <p class="lead reflexion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odio, cum nisi repellat nemo beatae neque voluptatibus sunt deleniti iure nobis quo doloremque ea nostrum, incidunt quos rerum voluptatem suscipit libero architecto laudantium delectus hic perferendis? Ipsa aliquid quidem quis voluptatum rem dolorum accusamus animi facere reiciendis praesentium perferendis asperiores consequuntur tenetur totam, sequi iste eligendi, quod aliquam eum dolor nihil officia quam illo? Non quaerat excepturi repudiandae cumque modi, ipsam facere laboriosam exercitationem autem incidunt aperiam cupiditate! Molestias quos repellendus enim autem sed quibusdam in assumenda, vero adipisci praesentium suscipit similique repudiandae libero at modi et quidem excepturi quis voluptatem eligendi est obcaecati culpa. Neque accusantium numquam nostrum impedit mollitia laboriosam fuga aspernatur accusamus quo nesciunt natus ullam, doloribus dicta tempora vitae et optio perspiciatis odio reprehenderit minima nobis est omnis atque in! Similique ipsa delectus sunt atque beatae id, debitis, deserunt minus repellendus aliquam dicta natus quibusdam illo.</p>
             </section>   
         </main>
-     <footer>
-        <h4>Todos los derechos reservados</h4>
-        <a href="#top">Ir al inicio</a>
-     </footer>
+        <footer class="text-center text-lg-start text-white"
+        style="background-color: #B6AF7A"
+        >
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto          mt-3">
+                  <h6 class="text-uppercase mb-4          font-weight-bold">
+                    Centro de medicina alternativa
+                  </h6>
+                  <p>
+                    LCDA. Carmen Marcano, especialista en          Medicina China
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+                <hr class="w-100 clearfix d-md-none" />
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto          mt-3">
+                  <h6 class="text-uppercase mb-4          font-weight-bold">Aliados comerciales</h6>
+                  <p>
+                    <a class="text-white">Diseño - JLanz</a>
+                  </p>
+                  <p>
+                    <a class="text-white">Desarrollo - Farias</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+                  <p><i class="fas fa-home mr-3"></i>Direccion del consultorio</p>
+                  <p><i class="fas fa-envelope mr-3"></i>cmarcano1464@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i>+58 414-3862746</p>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4          font-weight-bold">Follow us</h6>
+                  <!-- Facebook -->
+                  <a class="btn btn-primary btn-floating m-1"
+                     style="background-color: #A08A52"
+                     href="https://www.facebook.com/profile.php?id=100010657398609"
+                     role="button"
+                     ><i class="fab fa-facebook-f"></i
+                    ></a>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- Grid container -->
+          <!-- Copyright -->
+          <div class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2022 Todos los derechos reservados.<a href="#top">Ir al inicio</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
